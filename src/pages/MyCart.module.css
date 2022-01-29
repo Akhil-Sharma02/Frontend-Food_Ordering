@@ -1,0 +1,83 @@
+.cart {
+    width: 60%;
+    background-color: white;
+    margin: 100px auto;
+    list-style: none;
+    box-shadow: 0px 2px 8px rgba(248, 248, 248, 0.26);
+    padding: 16px;
+    border-radius: 1rem;
+}
+
+.cart li {
+    margin-bottom: 15px;
+    border-bottom: 0.05px solid grey;
+}
+
+.cart-food {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.item-desc {
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: gray;
+}
+
+.item-price {
+    color: rgb(131, 46, 46);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.cart-desc {
+    margin-bottom: 5px;
+}
+
+.item-qty {
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.cart li:first-child {
+    border-bottom: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(129, 39, 39);
+}
+
+.cart li:last-child {
+    border-bottom: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(129, 39, 39);
+}
+
+.cart li button {
+    font-size: 1.3rem;
+    padding: 0.1rem 1.3rem;
+    margin: 0 10px 10px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.5rem;
+}
+
+.place-btn {
+    float: right;
+    color: white;
+    background: none;
+    background-color: rgb(129, 39, 39);
+}

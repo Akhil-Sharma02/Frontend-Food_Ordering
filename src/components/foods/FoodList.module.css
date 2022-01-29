@@ -1,0 +1,16 @@
+.food-list {
+    width: 60%;
+    margin: 10px auto;
+    box-shadow: 0px 2px 8px rgba(248, 248, 248, 0.26);
+    list-style: none;
+    padding: 16px;
+    background-color: white;
+    border-radius: 0.8rem;
+    animation: slideup 1s forwards;
+}
+
+@keyframes slideup {
+    100% {
+        transform: translateY(-150px);
+    }
+}

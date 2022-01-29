@@ -1,0 +1,25 @@
+.nav {
+    background-color: rgb(163, 16, 16);
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+li {
+    padding: 10px 4px;
+    font-weight: bold;
+}
