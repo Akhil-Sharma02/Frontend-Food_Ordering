@@ -67,7 +67,7 @@ export const CartContextProvider = (props) => {
     const placeOrderHandler = async () => {
         if (cart.length > 0) {
             await axios.post(
-                "https://server-food-ordering.herokuapp.com/placeOrder",
+                `${process.env.REACT_APP_BACKEND_URL}/placeOrder`,
                 { cart }
             );
             setCart(() => []);

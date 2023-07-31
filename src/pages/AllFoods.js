@@ -11,7 +11,7 @@ const AllFoods = () => {
         async function getFoods() {
             try {
                 const res = await axios.get(
-                    "https://server-food-ordering.herokuapp.com/allfoods"
+                    `${process.env.REACT_APP_BACKEND_URL}/allfoods`
                 );
                 setFoods(res.data);
             } catch (err) {
